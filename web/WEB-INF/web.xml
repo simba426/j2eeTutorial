@@ -41,5 +41,35 @@
         <url-pattern>/addHero</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>HeroDeleteServlet</servlet-name>
+        <servlet-class>HeroDeleteServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HeroDeleteServlet</servlet-name>
+        <url-pattern>/deleteHero</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HeroEditServlet</servlet-name>
+        <servlet-class>HeroEditServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HeroEditServlet</servlet-name>
+        <url-pattern>/editHero</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HeroUpdateServlet</servlet-name>
+        <servlet-class>HeroUpdateServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HeroUpdateServlet</servlet-name>
+        <url-pattern>/updateHero</url-pattern>
+    </servlet-mapping>
+
 
 </web-app>
